@@ -1,6 +1,11 @@
 package com.example.recyclerviewproject;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import java.util.Random;
+
+import static java.lang.System.in;
 
 public class ToDo {
 
@@ -11,6 +16,13 @@ public class ToDo {
         this.task=task;
         this.id= new Random().nextInt(99999);
     }
+
+
+    public ToDo(int id,String task){
+       this.id=id;
+       this.task=task;
+    }
+
 
     public String getTask(){
         return task;
@@ -23,7 +35,5 @@ public class ToDo {
     public int getId(){
         return this.id;
     }
-
-
 
 }

@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">RecyclerViewProject</string>
+    <string name="app_name">RecyclerViewProject UtilitzantBD</string>
     <string name="add_todo">Add To Do</string>
 </resources>
